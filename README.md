@@ -1,7 +1,8 @@
-<h1>Simple book Storing app that i called it as StackStore</h1>
+<h1>Simple book Storing app ---StackStore</h1>
 
-<b>features</b>
+<p>features</p>
 
 Es6 
 object Oreiented
+Localstorage
 no Framework used 
