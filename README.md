@@ -3,6 +3,6 @@
 <p>features</p>
 
 Es6 <br>
-object Oreiented <br>
+Object Oreiented style <br>
 Localstorage <br>
-no Framework used 
+No Framework used 
