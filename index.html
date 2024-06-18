@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>stackStore</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="heading">Stack Store <i class="fa-solid fa-book"></i></h1>
+        <button class="mode"><i class="fa-solid fa-lightbulb"></i></button>
+    </div>
+    <div class="wrapper">
+        <div class="formField">
+            <form action="">
+                <div class="notifica sucess">Sucessfully added</div>
+                <div class="tags">
+            <p class="formText">Name Of Book</p>
+            <input type="text" class="formInpt" name="name" id="bName" placeholder="Enter the name of book">
+        </div>
+        <div class="tags">
+            <p class="formText">Name Of Author</p>
+            <input type="text" class="formInpt" name="name" id="bAuth" placeholder="Authour's name">
+            </div>
+            <div class="tags">
+            <p class="formText">Book Code</p>
+            <input type="text" class="formInpt" name="name" id="bCode" placeholder="Book code">
+            </div>
+            <input type="submit" value="Upload" class="formSubmit" id="submit">
+        </form>
+        </div>
+
+        <div class="stackList">
+            <div class="static">
+                <h3 class="listOfbooks">List of book <input type="text" name="search" id="search" placeholder="Search books.."> </h3>
+                <div class="notifica delete">Sucessfully deleted</div>
+            </div>
+            <ul class="ul">
+                <li class="list">
+                    <div class="bookDetails">
+                    <div class="date">date <span class="dateSpan">xx-xx-xxxx</span> </div>
+                    <div class="data">
+                    <div class="bookN">Alchemist 1</div>
+                    <div class="authourN">Paulo cohilo</div>
+                    <div class="codeB">#@3434</div>
+                </div>
+                </div>
+              <i class="fa-solid deletebtn fa-trash"></i>
+                </li>
+                
+              
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/46df8192c4.js" crossorigin="anonymous"></script>
+</body>
+</html>
