@@ -2,7 +2,7 @@
 
 <p>features</p>
 
-Es6 
-object Oreiented
-Localstorage
+Es6 <br>
+object Oreiented <br>
+Localstorage <br>
 no Framework used 
